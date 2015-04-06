@@ -1,0 +1,221 @@
+/* Table of Content
+==================================================
+	#Typography
+	#General
+	#Navigation
+	#Home
+	#About
+	#Skills
+	#Experience
+	#Projects & Programs
+	#Contact
+	#Footer */
+
+
+/* Typography
+================================================== */
+
+h1, h2, h3 {
+	font-family: 'Raleway';
+	text-align: center;
+	text-transform: lowercase;
+}
+
+.title {
+	color: #515151;
+	font-weight: 300;
+	font-size: 350%;
+}
+
+h2 {
+	font-size: 170%;
+	font-weight: 500;
+}
+
+h3 {
+	font-size: 115%;
+	font-weight: 500;
+	text-align: left;
+}
+
+p {
+	font-family: 'Ubuntu';
+	font-size: 100%;
+}
+
+a {
+	font-family: 'Ubuntu';
+	font-size: 110%;
+}
+
+span {
+	font-family: 'Ubuntu';
+}
+
+
+/* #General
+================================================== */
+
+.navbar-brand img {
+	max-width: 90px;
+	width: 70%;
+	height: auto;
+	margin-top: -10px;
+}
+/*.parallax {
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+article {
+	height: 458px; 
+	position: absolute; 
+	text-align: center; 
+	top: 150px; 
+	width: 100%;
+}
+
+#home {
+	background: url('../images/bike-vancouver.jpg') no-repeat fixed;
+}
+
+#about-bikes {
+	background-image: url('../images/hornbybikelane.jpg') 50% 0 no-repeat fixed;
+}
+
+#debate {
+	background-image: url('../images/') 50% 0 no-repeat fixed;
+}
+
+#about-us {
+	background-image: url('../images/') 50% 0 no-repeat fixed;
+}*/
+
+.parallax {
+  height: 550px; 
+  margin: 0 auto; 
+  width: 100%; 
+  position: relative; 
+}
+
+article {
+	font-family: 'Raleway';
+	height: auto; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px;
+  width: 100%; 
+}
+
+#home { 
+  background: url('../images/bicycle.jpg') 50% 0 no-repeat fixed;
+  background-size: cover;
+}
+
+#home article {
+	padding-left: 10%;
+	padding-top: 17%;
+}
+
+#home article h1 {
+	font-size: 300%;
+	color: #000;
+
+}
+
+#home article h1 , h3 {
+	text-align: left;
+	text-transform: none;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 5px;
+	text-shadow: 0px 0px 20px #f0f0f0;
+}
+ 
+#soWhat { 
+  background: url('../images/vancouver-cyclists-bike-dark.png') 50% 0 no-repeat fixed;
+  background-size: cover;
+}
+
+#soWhat article {
+	color: #fff;
+	top: 35%;
+	font-family: 'Ubuntu';
+	font-weight: 300;
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
+	text-align: center;
+	font-size: 1.5em;
+	text-shadow: 0px 0px 10px #CDCDCD;
+}
+
+#about-bikes {
+	margin: 100px 10px;
+}
+
+#about-bikes .logo {
+	text-align: center;
+}
+
+#about-bikes .logo img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+#about-bikes .content {
+	display: inline;
+	vertical-align: middle;
+	font-size: 1.2em;
+	padding-top: 5%;
+	padding-right: 40px;
+}
+
+#about-bikes .content p {
+	padding: 0px 20px;
+}
+ 
+#debate {
+	background: url('../images/hornbybikelane.jpg') 50% 0 no-repeat fixed;
+  background-size: cover;
+}
+
+#about-us {
+	background: url('../images/bikeFront.jpg') 50% 0 no-repeat fixed;
+  background-size: cover;
+}
+
+@media screen and (max-width: 767px) {
+	.parallax {
+		height: 400px;
+	}
+	#soWhat article {
+		top: 20%;
+		font-size: 1.2em;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	#about-bikes .content {
+		padding: 20px;
+	}
+	#about-bikes .content p {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+}
+
+/* Footer
+================================================== */
+#footer {
+	text-align: center;
+	margin: 10px 0px 10px 0px;
+	color: #858585;
+	font-size: 0.8em;
+}
+

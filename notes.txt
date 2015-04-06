@@ -1,0 +1,34 @@
+NOTES
+
+Company Name:	
+
+Website Name: 	
+
+Theme:
+- green/blue of Vancouver Logo
+- bikes & bike lanes
+
+Target Demographic:
+- Vancouverites who are interested in the Bike Lane debate, and want to understand both sides of the argument.
+
+Home Page:
+- intro image like my website
+- about Bike lanes
+	- info 
+	- what this website is for
+- so what section
+	- why the debate matters to Vancouverites
+- see Info page for details
+
+Comparision Page:
+- Pros/Cons of Vancouver Bike Lanes
+	- summary
+	- each bullet point is a specific topic or sub-topic
+- sections below are more details of each topic
+	- include brief text & an infograph
+	- graphs, quotes, images, etc
+
+Contact/About Page:
+- about us
+	- our "company" and what we care about
+- contact information
