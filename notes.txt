@@ -1,8 +1,8 @@
 NOTES
 
-Company Name:	
+Company Name:	Bike Lane Debate (Vancouver, BC)
 
-Website Name: 	
+Web Domain: 	bikelanedebate.com
 
 Theme:
 - green/blue of Vancouver Logo

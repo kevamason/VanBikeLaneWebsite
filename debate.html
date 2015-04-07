@@ -3,7 +3,7 @@
 <head>
 	<title>Bike Lane Debate</title>
 	<!-- web logo -->
-	<link rel="shortcut icon" href="">
+	<link rel="shortcut icon" href="images/logo.png">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -22,8 +22,8 @@
 
 <body>
 
-	<nav class="navbar navbar-default">
-		<div class="container-fluid">
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -32,7 +32,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">Brand</a>
+				<a class="navbar-brand" href="#"><img src="images/logo.png"></a>
 			</div>
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
@@ -49,10 +49,185 @@
 	
 	<!-- debate intro -->
 	<section id="debate" class="parallax" data-type="background" data-speed="10">     
-		<article>Bike Lane Debate: Vancouver, BC</article> 
-		<!-- bike-vancouver image
-		text: The Bike Lane Debate -->                      
+		<div class="banner"></div>  
+		<article><h1>Bike Lane Debate</h1><h3> Vancouver, BC </h3></article>     
 	</section> 
+
+	<!-- summary table -->
+	<div id="summary" class="container-fluid debate-pages">
+		<h1 class="title">Battle for Bikes</h1>
+
+		<div id="bike-icon">
+			<img src="images/bikeIcon.png">
+		</div>
+		<div id="car-icon">
+			<img src="images/carIcon.png">
+		</div>
+
+		<table class="debate-table">
+			<tr class="titles">
+				<td class="left">For Bike Lanes</td>
+				<td class="center">Topic</td>
+				<td class="right">Against Bike Lanes</td>
+			</tr>
+			<tr class="content">
+				<td class="left">More people commuting to work via bike lanes.</td>
+				<td class="topic"><a href="#no-users">Number of Users</a></td>
+				<td class="right">Bike lane use is weather dependent - dramatically fewer people in cold/rain.</td>
+			</tr>
+			<tr class="content">
+				<td class="left">Helps promote eco-friendly city goal.</td>
+				<td class="topic"><a href="#greenest-city">Greenest City by 2020</a></td>
+				<td class="right">People will drive cars on rainy days (lower use of bike lanes).</td>
+			</tr>
+			<tr class="content">
+				<td class="left">Production & maintenance costs offset by environmental gains & lower gas cost per rider.</td>
+				<td class="topic"><a href="#econ-cost">Economic Cost</a></td>
+				<td class="right">Million-dollar projects are removing parking spots & harming local businesses.</td>
+			</tr>
+			<tr class="content">
+				<td class="left">Provides safe commute for cyclists.</td>
+				<td class="topic"><a href="#safety">Safety</a></td>
+				<td class="right">Encourage riders to act recklessly and lowers cautious attitude towards motorists.</td>
+			</tr>
+		</table>
+		
+
+		<div class="col-sm-12">
+			<p id="info">
+				Below are detailed analyses of each topic above. The sections describe opinions from real Vancouverites and journalists. 
+			</p>
+		</div>
+	</div> <!--summary close-->
+
+
+	<div id="no-users" class="container-fluid debate-pages">
+		<h1 class="title">Number of Users</h1>
+		<a class="toTop" href="#summary">&#9757; Back to Top</a>
+		<div class="col-md-6 details">
+			<img class="bike" src="images/bikeIcon.png">
+			<p>
+				According to the City of Vancouver, there has been a record number of cyclists who use the new bike lanes. From 2013 to 2014 usage increased 21%. In total there has been 5 million bike trips over the Burrard Street Bridge since the opening of the bike lanes 5 years ago. In 2014, Point Grey Road closed down to traffic between Alma and MacDonald. In July 2014 there were 600 trips per weekday on average. 
+			</p>
+		</div>
+
+		<div class="col-md-6 details">
+			<img class="car" src="images/carIcon.png">
+			<p>
+				Usage varies due to weather, and Vancouver has 168 days of rain per year on average. Usage rates on Hornby Street remain at 20,000 riders in the winter months, compared to 71,000 users in the summer months. According to Stats Canada, biking in Vancouver only increased 0.9% from 2008 to 2011. Therefore, Vancouver biking in Vancouver is dependant largely on the weather.
+				<br><br>
+				In summary, to play devil's advocate it is clear that regardless of the numbers, ridership is increasing in the summer months. It is probably not a coincidence that bikes lanes were constructed and ridership is increasing.
+			</p>
+		</div>
+
+		<div class="col-md-12 details">
+			<h1>&#60;/&#62;</h1>
+			<ul class="sources">
+				<li><a href="http://www.calgarysun.com/2014/03/09/going-flat-out--portland-and-vancouver-spent-loads-on-bike-lanes--for-very-little-gain" target="_blank">Calgary Sun: "Going flat out - Portland and Vancouver spent loads on bike lanes ... for very little gain"</a></li>
+				<li><a href="http://www.currentresults.com/Weather/Canada/British-Columbia/precipitation-annual-average.php" target="_blank">Current Results: "Average Annual Precipitation in British Columbia"</a></li>
+				<li><a href="http://www.vancouversun.com/travel/Jury+still+impact+downtown+Vancouver+bike+lanes/10239796/story.html" target="_blank">Vancouver Sun: "Jury is still out on impact of downtown Vancouver bike lanes"</a></li>
+				<li><a href="http://www.vancouversun.com/travel/Vancouver+sees+record+number+cyclists+using+separated+bike+lanes/10154045/story.html" target="_blank">Vancouver Sun: "Vancouver sees record number of cyclists using separated bike lanes"</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="greenest-city" class="container-fluid debate-pages">
+		<h1 class="title">Greenest City by 2020</h1>
+		<a class="toTop" href="#summary">&#9757; Back to Top</a>
+		<div class="col-md-6 details">
+			<img class="bike" src="images/bikeIcon.png">
+			<p>
+				The city of Vancouver has created 10 goals in order to become the greenest city in the world by 2020. One of them is the city's green transportation goal, which promotes walking, use of public transportation, and cycling.
+				<br><br>
+				The separated bicycle lane program is to help reach the following two targets:
+				<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1)&nbsp;&nbsp;Over 50% of the trips are made by foot, bicycle, and public transit
+				<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2)&nbsp;&nbsp;Average distance driven per resident is to be reduced by 20%
+			</p>
+		</div>
+
+		<div class="col-md-6 details">
+			<img class="car" src="images/carIcon.png">
+			<p>
+				"In the fall and winter, the lanes are empty. But the mayor and his Vision Vancouver party just wanted to make this the 'greenest' city, whatever it took," - Mr. Szajman, a 57-year-old marketing consultant
+				<br><br>
+				The cycling project accounts for $2.95 million or approximately $5 per resident. In the future, the construction for the bike path and pedestrian walkway in Stanley Park will cost another $7 million.
+			</p>
+		</div>
+
+		<div class="col-md-12 details">
+			<h1>&#60;/&#62;</h1>
+			<ul class="sources">
+				<li><a href="http://former.vancouver.ca/ctyclerk/cclerk/20130612/documents/cfsc2.pdf" target="_blank">City of Vancouver: "Administrative Report: Active Transportation Corridor Implementation"</a></li>
+				<li><a href="http://vancouver.ca/green-vancouver/green-transportation.aspx" target="_blank">City of Vancouver: "Green Transportation"</a></li>
+				<li><a href="http://www.theglobeandmail.com/news/british-columbia/vancouver-bike-lanes-incite-outrage-as-city-supports-riders/article20295669/" target="_blank">The Globe and Mail: "Vancouver bike lanes incite outrage as city supports riders"</a></li>
+				<li><a href="http://www.vancouversun.com/travel/Vancouver+sees+record+number+cyclists+using+separated+bike+lanes/10154045/story.html" target="_blank">Vancouver Sun: "Vancouver sees record number of cyclists using separated bike lanes"</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="econ-cost" class="container-fluid debate-pages">
+		<h1 class="title">Economic Cost</h1>
+		<a class="toTop" href="#summary">&#9757; Back to Top</a>
+		<div class="col-md-6 details">
+			<img class="bike" src="images/bikeIcon.png">
+			<p>
+				The City of Vancouver states that "If you build it, people will come". There is a benefit to Vancouverites because citizens who would not typically use bikes are now much more comfortable riding in the city. Now there is a whole new group of riders. These riders would not exist without the separated bike lanes that protect bicyclists from motorists. This then encourages people to stop driving, thus reducing the carbon footprint of Vancouverites.  Less parking is needed because of the encouragement towards biking instead of driving. The cost is offset by the environmental gains.
+			</p>
+		</div>
+
+		<div class="col-md-6 details">
+			<img class="car" src="images/carIcon.png">
+			<p>
+				Bike lanes cost millions to construct, and on top of the direct cost there is the loss of revenue from removing parking. Furthermore, businesses on bike routes have seen a negative impact due to the inconvenience for drivers to reach their shops. Businesses were not consulted by the City, and construction began without a public approval. The parking spots that were removed were not reallocated somewhere else. Overall the streets of downtown Vancouver were not designed for bike traffic, therefore creating a very awkward and inconvenient route for commuters who have no choice other than to drive. A 2011 economic impact study of the Hornby street lane done for the Vancouver Economic Commission estimated that 150 businesses would likely lose more than $2.4 million in the first year of the lanes.
+				<br><br>
+				So, what are the numbers? Counters were installed in two locations, Science World and Burrard Street Bridge at a cost of $30,000 per counter with annual maintenance of $1,000. The economic study done in 2011, conducted for the City of Vancouver cost $125,000, and was incomplete. Point Grey Road cost $6 million. The cost for Hornby street was estimated to total $3.2 million. $1.1 million for traffic signal changes, $947,000 for new passenger and loading zones, $390,000 for planters and $200,000 for a campaign advertising the lane to the public.
+				<br><br>
+				Who is paying for the lanes? Motorists have insurance, do bicyclists? Perhaps bicyclists can contribute financially to the construction of lanes to reduce the negative views of being "free riders". On the other hand, some would argue that bicyclists pay taxes and the lanes are beneficial to everyone, even those who do not use them.
+			</p>
+		</div>
+
+		<div class="col-md-12 details">
+			<h1>&#60;/&#62;</h1>
+			<ul class="sources">
+				<li><a href="http://www.cbc.ca/news/canada/british-columbia/bike-route-construction-closes-point-grey-road-to-traffic-1.2500799" target="_blank">CBC News: "Bike route construction closes Point Grey Road to traffic"</a></li>
+				<li><a href="http://bc.ctvnews.ca/spinning-opinion-live-counters-installed-at-vancouver-bike-paths-1.1977991" target="_blank">CTV News: "Spinning opinion? Live counters installed at Vancouver bike paths"</a></li>
+				<li><a href="http://www.theglobeandmail.com/news/british-columbia/vancouver-bike-lanes-incite-outrage-as-city-supports-riders/article20295669/" target="_blank">The Globe and Mail: "Vancouver bike lanes incite outrage as city supports riders"</a></li>
+				<li><a href="http://www.vancouversun.com/travel/Jury+still+impact+downtown+Vancouver+bike+lanes/10239796/story.html" target="_blank">Vancouver Sun: "Jury is still out on impact of downtown Vancouver bike lanes"</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="safety" class="container-fluid debate-pages">
+		<h1 class="title">Safety</h1>
+		<a class="toTop" href="#summary">&#9757; Back to Top</a>
+		<div class="col-md-6 details">
+			<img class="bike" src="images/bikeIcon.png">
+			<p>
+				The protected bike lanes offer safety and comfort to cyclists. The safety upgrade includes concrete medians and planters as barriers, green-colored safety fencing, and wider pathways.
+				<br><br>
+				Separated or protected bike lanes such as cycle tracks along major streets, bike routes with traffic diversion on residential streets, and bike only paths reduce the risk of cycling injuries. It is also safer for pedestrians as the bike lanes keep the cyclists off the sidewalk.
+			</p>
+		</div>
+
+		<div class="col-md-6 details">
+			<img class="car" src="images/carIcon.png">
+			<p>
+				The bike lanes may have encouraged cyclists to behave badly, which increases the chance of accidents on the road. "They're worse these days because they think the city's on their side." - Mr. Szajman, a 57-year-old marketing consultant.
+				<br><br>
+				Drivers are resentful towards cyclists because they think that cyclists are "free-riders", who get away from breaking the society's rules. As explained by Stafford on BBC, "Evolution has built into the human mind a hatred of free-riders and cheaters, which activates anger when we confront people acting like this - and it is this anger which prompts altruistic punishment. In this way, the emotion is evolution's way of getting us to overcome our short-term self-interest and encourage collective social life."
+			</p>
+		</div>
+
+		<div class="col-md-12 details">
+			<h1>&#60;/&#62;</h1>
+			<ul class="sources">
+				<li><a href="http://vancouver.ca/streets-transportation/separated-bicycle-lanes.aspx" target="_blank">City of Vancouver: "Separated Bike Lanes"</a></li>
+				<li><a href="http://www.minnpost.com/second-opinion/2013/02/why-motorists-get-so-angry-cyclists-psychologists-theory" target="_blank">Minn Post: "Why motorists get so angry at cyclists — a psychologist's theory"</a></li>
+				<li><a href="http://www.theglobeandmail.com/news/british-columbia/vancouver-bike-lanes-incite-outrage-as-city-supports-riders/article20295669/" target="_blank">The Globe and Mail: "Vancouver bike lanes incite outrage as city supports riders"</a></li>
+				<li><a href="http://www.vancitybuzz.com/2015/03/stanley-park-causeway-bike-lanes/" target="_blank">Vancity Buzz: "Vancouver Park Board approves Stanley Park Causeway bike lanes"</a></li>
+			</ul>
+		</div>
+	</div>
 
 
 	<div id="footer">
@@ -65,3 +240,5 @@
 <script src="js/jquery-1.11.2.js"></script>
 <!-- Bootstrap -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="js/main.js"></script>

@@ -62,38 +62,7 @@ span {
 	height: auto;
 	margin-top: -10px;
 }
-/*.parallax {
-	background-size: cover;
-	background-position: center;
-	height: 100%;
-	width: 100%;
-	margin: 0 auto;
-	position: relative;
-}
 
-article {
-	height: 458px; 
-	position: absolute; 
-	text-align: center; 
-	top: 150px; 
-	width: 100%;
-}
-
-#home {
-	background: url('../images/bike-vancouver.jpg') no-repeat fixed;
-}
-
-#about-bikes {
-	background-image: url('../images/hornbybikelane.jpg') 50% 0 no-repeat fixed;
-}
-
-#debate {
-	background-image: url('../images/') 50% 0 no-repeat fixed;
-}
-
-#about-us {
-	background-image: url('../images/') 50% 0 no-repeat fixed;
-}*/
 
 .parallax {
   height: 550px; 
@@ -111,6 +80,69 @@ article {
   width: 100%; 
 }
 
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+.center {
+	text-align: center;
+}
+
+/* Navbar
+================================================== */
+.navbar-default {
+    background-color: #F7F7F7;
+    border-color: #E7E7E7;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5E5E5E;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #5d5d5d;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #000;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #000;
+    background-color: #E7E7E7;
+}
+
+/* mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #90c63c;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #4e4e4e;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #90c63c;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+    }
+}
+
+/*green: 90c63c
+blue: 0085c8*/
+
+/* Home
+================================================== */
 #home { 
   background: url('../images/bicycle.jpg') 50% 0 no-repeat fixed;
   background-size: cover;
@@ -179,17 +211,189 @@ article {
 #about-bikes .content p {
 	padding: 0px 20px;
 }
- 
+
+
+
+/* Debate
+================================================== */
 #debate {
 	background: url('../images/hornbybikelane.jpg') 50% 0 no-repeat fixed;
   background-size: cover;
 }
 
+#debate .banner {
+	top: 30%;
+  position: relative;
+  color: #fff;
+  height: 130px;
+  width: 100%;
+  padding-left: 40%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#debate article {
+	padding-top: 50px;
+}
+
+#debate article h1 {
+	font-size: 300%;
+}
+
+#debate article h1 , #debate article h3 {
+	color: #fff;
+	text-align: center;
+	text-transform: none;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 5px;
+}
+
+.toTop {
+	float: right;
+	font-weight: 300;
+}
+
+.debate-table {
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 80%;
+}
+
+#bike-icon {
+	float: left;
+}
+
+#car-icon {
+	float: right;
+}
+
+#bike-icon img {
+	margin-left: 10px;
+	width: 80px;
+	height: auto;
+}
+
+#car-icon img {
+	margin-top: 10px;
+	width: 100px;
+	height: auto;
+}
+
+.debate-table td {
+	padding: 10px 20px;
+}
+
+.debate-table .titles {
+	text-align: center;
+	font-family: 'Ubuntu';
+	font-size: 180%;
+	font-weight: 300;
+}
+
+.debate-table .topic {
+	text-align: center;
+	font-family: 'Ubuntu';
+	text-transform: lowercase;
+	font-size: 120%;
+	font-weight: 300;
+}
+
+.debate-pages {
+	background-color: #fafafa;
+	box-shadow: 0px -10px 40px #F0F0F0;
+							/*#F0F8FF*/
+	padding-top: 2em;
+	padding-bottom: 4em;
+}
+
+.title {
+	color:#90c63c;
+}
+
+#info {
+	font-family: "Raleway";
+	font-weight: 300;
+	font-size: 1.5em;
+	text-align: center;
+	padding-top: 1em;
+	padding-right: 2em;
+	padding-left: 2em;
+}
+.details {
+	margin-top: 31px;
+	text-align: center;
+}
+
+.details img {
+	width: 100px;
+	height: auto;
+}
+
+.details p {
+	text-align: left;
+	padding-top: 20px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.sources {
+	padding: 0;
+	text-align: center;
+	list-style-type: none;
+	font-family: "Raleway";
+	font-size: 0.8em;
+	margin: 0 auto;
+}
+
+
+/* Contact
+================================================== */
 #about-us {
-	background: url('../images/bikeFront.jpg') 50% 0 no-repeat fixed;
+	background: url('../images/2014-Bicycle-City.png') 50% 0 no-repeat fixed;
   background-size: cover;
 }
 
+#about-us article h2 {
+	font-size: 180%;
+	text-transform: none;
+	width: 55%;
+	padding-left: 5%;
+	text-align: left;
+}
+
+#contact {
+	background-color: #fafafa;
+	box-shadow: 0px -10px 40px #F0F0F0;
+							/*#F0F8FF*/
+	padding-top: 2em;
+	padding-bottom: 4em;
+}
+
+.contact-info {
+	font-family: "Raleway";
+	font-weight: 300;
+	font-size: 1.5em;
+	text-align: left;
+	vertical-align: middle;
+	padding: 2%;
+}
+
+.contact-form {
+	font-family: "Ubuntu";
+	font-weight: 300;
+	font-size: 1.2em;
+	text-align: center;
+	vertical-align: middle;
+	padding: 2%;
+}
+
+.contact-form img {
+	width: 20%;
+	height: auto;
+}
+
+/* Mobile
+================================================== */
 @media screen and (max-width: 767px) {
 	.parallax {
 		height: 400px;
@@ -197,6 +401,22 @@ article {
 	#soWhat article {
 		top: 20%;
 		font-size: 1.2em;
+	}
+	#debate article {
+		padding-top: 0px;
+	}
+	#about-us article {
+		top: 30%;
+	}
+
+	#about-us article h2 {
+		width: 80%;
+		font-size: 150%;
+		text-shadow: 0px 0px 10px #CDCDCD;
+	}
+	.contact-info {
+		font-size: 1.2em;
+		text-align: center;
 	}
 }
 
@@ -207,6 +427,18 @@ article {
 	#about-bikes .content p {
 		padding-left: 50px;
 		padding-right: 50px;
+	}
+}
+
+@media screen and (max-width: 975px) {
+	.debate-table {
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 850px) {
+	.debate-table {
+		margin: 0;
 	}
 }
 
